@@ -57,6 +57,7 @@ Projeto realizado para teste técnico de BackEnd Jr.
 
 - Seu servidor deve estar rodando!
 - Importe o arquivo que se encontra na pasta /insomnia do projeto.
+<br>
 Pronto! O ambiente está configurado.
 
 
@@ -85,15 +86,15 @@ Caso hajam dados cadastrados, será retornado o seguinte template:
 ]
 ```
 Do contrário, o array estará vazio.
-
-
+<br>
+<br>
 
 **Create**
 * Adicione os dados nos inputs.
 * Clique em **Send** para cadastrar o produtos na base de dados.
 * A tratagem de erro está em dia, caso seus dados não estejam conforme o esperado, uma mensagem de erro será mostrada.
-
-
+<br>
+<br>
 
 **Show**
 * Acesse um produto específico pelo seu id
@@ -104,16 +105,16 @@ Exemplo:
 ```sh
 http://localhost:8000/api/products/3
 ```
-* Caso o produto de id informado não exista, uma mensagem de erro será retornada.
-
-
+Caso o produto de id informado não exista, uma mensagem de erro será retornada.
+<br>
+<br>
 
 **Update**
 * Adicione os dados nos inputs.
 * Clique em **Send** para atualizar o produtos na base de dados.
 * A tratagem de erro está em dia, caso seus dados não estejam conforme o esperado, uma mensagem de erro será mostrada.
-
-
+<br>
+<br>
 
 **Delete**
 * Delete um produto específico pelo seu id
@@ -125,4 +126,4 @@ Exemplo:
 http://localhost:8000/api/products/3
 ```
 * O produto de id informado será deletado.
--> Ao fazer request no *Index*, o item deletado será mostrado, dessa vez com o deleted_at informado.
+* Ao fazer request no *Index*, o item deletado será mostrado, dessa vez com o deleted_at informado.
