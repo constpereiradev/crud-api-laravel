@@ -142,8 +142,6 @@ http://localhost:8000/api/products/3
 
 **Index**
 * Clique em **Send** para listar os dados cadastrados na base de dados.
-Caso hajam dados cadastrados, serão retornados os ids e os nomes dos municípios, ambos cadastrados na base de dados.
-
-Do contrário, o array estará vazio.
+Caso hajam dados cadastrados, serão retornados os ids e os nomes dos municípios, ambos cadastrados na base de dados. Do contrário, o array estará vazio.
 <br>
 <br>
