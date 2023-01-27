@@ -32,13 +32,34 @@ Projeto realizado para teste técnico de BackEnd Jr.
 - PHP 8.1
 - Laravel
 - Banco de dados MySQL
+- Insomnia
 
-Primeiro você deve clonar este projeto via git.
+Primeiro você deve clonar este projeto via git e entrar no diretório:
 
 ```sh
     git clone https://github.com/constpereiradev/crud-api-laravel.git
+    cd crud-api-laravel
+    
 ```
- 
+
+Caso não possua o insomnia, vá até o seu terminal:
+
+```sh
+    
+    apt-get install insomnia
+    
+```
+
+Após a instalação do insomnia, inicialize o servidor via php artisan no seu terminal:
+
+
+```sh
+    
+    php artisan serve
+    
+```
+
+Copie o link gerado e abra o insomnia.
 
 
 
