@@ -18,6 +18,7 @@ create table products(
 
 );
 
+
 CREATE TABLE municipios(
     id INT(11) NOT NULL AUTO_INCREMENT,
     ibge_id LONGTEXT,
