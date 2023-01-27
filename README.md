@@ -15,9 +15,9 @@ Caso o endpoint de listagem seja chamado mais de uma vez, os itens já cadastrad
 
 Projeto realizado para teste técnico de BackEnd Jr.
 
-## Documentação
+## [**Documentação**](https://app.swaggerhub.com/apis/constpereiradev/crud-api-laravel/1.0.0#/default/)
 
-https://app.swaggerhub.com/apis/constpereiradev/crud-api-laravel/1.0.0#/default/
+A documentação completa se encontra [**aqui**](https://app.swaggerhub.com/apis/constpereiradev/crud-api-laravel/1.0.0#/default/).
 
 
 ## Instalação
