@@ -65,7 +65,7 @@ Pronto! O ambiente está configurado.
 
 Agora você está pronto para realizar suas requests. Siga o guia:
 
-**Api CRUD**
+### Api CRUD
 
 **Index**
 * Clique em **Send** para listar os produtos cadastrados na base de dados.
@@ -145,3 +145,7 @@ http://localhost:8000/api/products/3
 Caso hajam dados cadastrados, serão retornados os ids e os nomes dos municípios, ambos cadastrados na base de dados. Do contrário, o array estará vazio.
 <br>
 <br>
+
+## License
+
+[MIT License](https://github.com/arifszn/pandora/blob/main/LICENSE)
