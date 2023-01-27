@@ -64,7 +64,13 @@ A documentação completa se encontra [**aqui**](https://app.swaggerhub.com/apis
 ```
 
 - Seu servidor deve estar rodando!
+- Abra o insomnia
 - Importe o arquivo que se encontra na pasta /insomnia do projeto.
+
+<img src="/img/export.png"/>
+
+
+
 <br>
 Pronto! O ambiente está configurado.
 
