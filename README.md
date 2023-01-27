@@ -70,7 +70,6 @@ A documentação completa se encontra [**aqui**](https://app.swaggerhub.com/apis
 <img src="/img/export.png"/>
 
 
-
 <br>
 Pronto! O ambiente está configurado.
 
