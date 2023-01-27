@@ -48,18 +48,16 @@ Projeto realizado para teste técnico de BackEnd Jr.
 - Caso não possua o insomnia, vá até o seu terminal:
 ```sh
     sudo apt-get install insomnia
-    
 ```
 
 - Após a instalação do insomnia, inicialize o servidor via php artisan no seu terminal:
 ```sh
     php artisan serve
-    
 ```
 
 - Seu servidor deve estar rodando!
 - Importe o arquivo que se encontra na pasta /insomnia do projeto.
-- Pronto! O ambiente está configurado.
+Pronto! O ambiente está configurado.
 
 
 ## Guia da API
