@@ -64,5 +64,10 @@ Pronto! O ambiente está configurado.
 
 Agora você está pronto para realizar suas requests. Siga o guia:
 
+**Api CRUD**
+
+**INDEX**
+* Clique em **Send** para listar os produtos cadastrados na base de dados.
+
 
 
