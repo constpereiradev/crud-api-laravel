@@ -37,10 +37,20 @@ A documentação completa se encontra [**aqui**](https://app.swaggerhub.com/apis
     git clone https://github.com/constpereiradev/crud-api-laravel.git
     cd crud-api-laravel  
 ```
+- Instale o composer para gerar a pasta /vendor
 
-- Configure o seu banco de dados no arquivo:
 ```sh
-    .env 
+    composer install  
+```
+
+- Remova .example do arquivo e configure o as informações do seu banco de dados:
+```sh
+    .env.example
+```
+
+- Vá até o seguinte arquivo e inicialize a conexão com seu banco de dados:
+```sh
+    /database/database.sql
 ```
 
 - Caso não possua o insomnia, vá até o seu terminal:
