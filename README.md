@@ -66,8 +66,63 @@ Agora você está pronto para realizar suas requests. Siga o guia:
 
 **Api CRUD**
 
-**INDEX**
+**Index**
 * Clique em **Send** para listar os produtos cadastrados na base de dados.
+Caso hajam dados cadastrados, será retornado o seguinte template:
+
+```sh
+[
+	{
+		"id": 1,
+		"name": "name",
+		"category": "category",
+		"status": status,
+		"quantity": 1,
+		"created_at": "2023-01-26T23:25:25.000000Z",
+		"updated_at": "2023-01-26T23:25:25.000000Z",
+		"deleted_at": null
+	}
+]
+```
+Do contrário, o array estará vazio.
 
 
 
+**Create**
+* Adicione os dados nos inputs.
+* Clique em **Send** para cadastrar o produtos na base de dados.
+* A tratagem de erro está em dia, caso seus dados não estejam conforme o esperado, uma mensagem de erro será mostrada.
+
+
+
+**Show**
+* Acesse um produto específico pelo seu id
+```sh
+http://localhost:8000/api/products/{id}
+```
+Exemplo:
+```sh
+http://localhost:8000/api/products/3
+```
+* Caso o produto de id informado não exista, uma mensagem de erro será retornada.
+
+
+
+**Update**
+* Adicione os dados nos inputs.
+* Clique em **Send** para atualizar o produtos na base de dados.
+* A tratagem de erro está em dia, caso seus dados não estejam conforme o esperado, uma mensagem de erro será mostrada.
+
+
+
+**Delete**
+* Delete um produto específico pelo seu id
+```sh
+http://localhost:8000/api/products/{id}
+```
+Exemplo:
+```sh
+http://localhost:8000/api/products/3
+```
+* O produto de id informado será deletado.
+-> Ao fazer request no *Index*, o item deletado será mostrado, dessa vez com o deleted_at informado.
