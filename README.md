@@ -35,34 +35,36 @@ Projeto realizado para teste técnico de BackEnd Jr.
 - Insomnia
 
 - Você deve clonar este projeto via git e entrar no diretório:
-
 ```sh
     git clone https://github.com/constpereiradev/crud-api-laravel.git
-    cd crud-api-laravel
-    
+    cd crud-api-laravel  
+```
+
+- Configure o seu banco de dados no arquivo:
+```sh
+    .env 
 ```
 
 - Caso não possua o insomnia, vá até o seu terminal:
-
 ```sh
-    
-    apt-get install insomnia
+    sudo apt-get install insomnia
     
 ```
 
 - Após a instalação do insomnia, inicialize o servidor via php artisan no seu terminal:
-
-
 ```sh
-    
     php artisan serve
     
 ```
 
-- Copie o link gerado e abra o insomnia.
+- Seu servidor deve estar rodando!
 - Importe o arquivo que se encontra na pasta /insomnia do projeto.
+- Pronto! O ambiente está configurado.
 
 
 ## Guia da API
+
+Agora você está pronto para realizar suas requests. Siga o guia:
+
 
 
