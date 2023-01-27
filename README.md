@@ -61,7 +61,7 @@ Projeto realizado para teste técnico de BackEnd Jr.
 Pronto! O ambiente está configurado.
 
 
-## Guia da API
+## Guia da API CRUD
 
 Agora você está pronto para realizar suas requests. Siga o guia:
 
@@ -127,3 +127,23 @@ http://localhost:8000/api/products/3
 ```
 * O produto de id informado será deletado.
 * Ao fazer request no *Index*, o item deletado será mostrado, dessa vez com o deleted_at informado.
+<br>
+<br>
+
+## Guia da API IBGE
+
+**Api IBGE**
+
+**IBGE Create**
+* Caso seja a primeira requisição, os municípios e seus respectivos ids serão cadastrados na base de dados e os municípios serão retornados.
+* Caso a requisição seja feita novamente, não será possível duplicá-los, ou seja, não serão inseridas novamente na base de dados as mesmas informações. Uma mensagem será mostrada juntamente aos municípios.
+<br>
+<br>
+
+**Index**
+* Clique em **Send** para listar os dados cadastrados na base de dados.
+Caso hajam dados cadastrados, serão retornados os ids e os nomes dos municípios, ambos cadastrados na base de dados.
+
+Do contrário, o array estará vazio.
+<br>
+<br>
