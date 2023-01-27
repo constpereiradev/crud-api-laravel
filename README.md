@@ -35,9 +35,9 @@ Projeto realizado para teste técnico de BackEnd Jr.
 
 Primeiro você deve clonar este projeto via git.
 
----sh
+```sh
     git clone https://github.com/constpereiradev/crud-api-laravel.git
----
+```
  
 
 
