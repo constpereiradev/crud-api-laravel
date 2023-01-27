@@ -20,7 +20,14 @@ class ProductsController extends Controller
         
         //Produtos deletados também serão mostrados
         $products = $product->withTrashed()->get();
-        return $products;
+
+        if ($products == "[]"){
+            return response()->json([
+                "mensagem" => "Não há produtos cadastrados na base de dados.",
+                ]);
+        }else {
+            return $products;
+        }
     }
 
     /**
@@ -120,8 +127,18 @@ class ProductsController extends Controller
     public function destroy($id)
     {
         $product = Product::find($id);
-        $product->delete();
-
+        if($product){
+            $product->delete();
+            return response()->json([
+    
+                "mensagem" => "O produto de id $id foi deletado com sucesso.",
+            ]);
+        }else {
+            return response()->json([
+    
+                "mensagem" => "Não existe um produto de id $id.",
+            ]);
+        }
 
         //Retorna informações do produto deletado, tal qual deleted_at
         return $product;
