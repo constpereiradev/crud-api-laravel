@@ -17,6 +17,7 @@ Projeto realizado para teste técnico de BackEnd Jr.
 
 ## Documentação
 
+https://app.swaggerhub.com/apis/constpereiradev/crud-api-laravel/1.0.0#/default/
 
 
 ## Instalação
