@@ -161,4 +161,4 @@ Caso hajam dados cadastrados, serão retornados os ids e os nomes dos município
 
 ## License
 
-[MIT License]
+MIT License
